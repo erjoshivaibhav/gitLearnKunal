@@ -1,0 +1,35 @@
+OOPS= Object Oriented Programming Systems
+
+Java is one of thre oop language
+
+1. Inheritance(Parent-Child relationshi)
+2. Poly-morphism(Poly= many, Morph=foms-Types)(Method Overloading, method overiding)
+3. Abstraction-Show only essential things and hide un essential things-->Abstract
+4. Encapsulation
+
+
+
+Normal Class--> normal methods
+Interface--> all methods are abstract that means  no method body
+Abstract class--> combinatipon on normal and interface
+
+//how to define a class
+public class <className>{}
+public class Parent{}
+
+//how to define a variable/attribute
+private/protected/public/default dataType <varName>;
+private String name="Sonali";
+
+
+//how to define a method
+public/private/protected returnType <methodname>(can or cannot have arguments){}
+public int sum(int a,int b){
+int res= a+b;
+return res;
+}
+
+
+//how to create an object
+ClassName <var> = new ClassName();
+var.methodName();
